@@ -1,6 +1,6 @@
 cask "calendar-plus-plus" do
   version "1.0.0"
-  sha256 "REPLACE_WITH_ACTUAL_SHA256"
+  sha256 "c76ffe9238b2b6d221a1453be3619ca1813911dff431df599ecc8c3c252c7bbe"
 
   url "https://deniskim1.com/releases/calendar++-v#{version}.zip"
   name "calendar++"
