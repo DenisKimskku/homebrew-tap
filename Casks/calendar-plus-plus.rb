@@ -1,6 +1,6 @@
 cask "calendar-plus-plus" do
-  version "1.1"
-  sha256 "fdaee07e195eb08820d292b1b65dc84859d6669519eca439b0d4604a3ad1ed93"
+  version "1.2.0"
+  sha256 "d2dd120b02340938ee8ae1c728a5be69ee3908017f446cedc76fb99364602dec"
 
   url "https://deniskim1.com/releases/calendar++-v#{version}.zip"
   name "calendar++"
@@ -37,21 +37,29 @@ cask "calendar-plus-plus" do
     calendar++ has been installed as a menu bar application.
 
     Features:
-      • Smart calendar event management
+      • Smart calendar event management with Google Calendar sync
+      • ML-powered natural language event creation
       • Google Calendar integration (OAuth 2.0)
       • Unified timeline with reminders
       • Deep work focus sessions
       • URL scheme automation (calendarplusplus://)
       • Shortcuts integration
-    
+      • Keyboard shortcuts (Cmd+N, Cmd+T, Cmd+R)
+
+    What's New in v1.2.0:
+      ✨ ML-powered natural language parser using Apple's NaturalLanguage framework
+      🔐 Google Calendar integration with OAuth2
+      ⌨️  Keyboard shortcuts support
+      🎯 QuickAdd form auto-dismissal
+
     To start calendar++:
       Open from Applications folder or use Spotlight
-    
+
     URL Scheme Examples:
       open "calendarplusplus://show-date?timestamp=$(date +%s)"
       open "calendarplusplus://new-event?title=Meeting&start=1702080000&end=1702083600"
       open "calendarplusplus://set-focus?set=work"
-    
+
     For more information:
       https://deniskim1.com
   EOS
